@@ -139,10 +139,7 @@ else:
     st.markdown('''***Flair is used to suppress this fluid content, to better identify lesions and tumors 
              that are not clearly visible on T1 or T2 images.***''')
     st.image('data\BraTS20_Training_045\Flair_modality.png', use_column_width=True)
-st.write('')
-st.write('')
-st.subheader("Challenges")
-st.markdown(parag3 , unsafe_allow_html = True)
+
 
 st.write('')
 
@@ -165,4 +162,7 @@ st.subheader('Tumor segmentation areas')
 st.image('data\BraTS20_Training_045\segmentation_mask.png', use_column_width=True)
 st.write('')
 st.markdown('The glioma is segmented and colored appropriately in three areas: :blue[necrotic core], :orange[enhancing tumor] and :green[edema].')
-    
+st.write('')
+st.write('')
+st.subheader("Challenges")
+st.markdown(parag3 , unsafe_allow_html = True)
