@@ -2,8 +2,9 @@
 
 ## Content
 This repository centers around the Brain Tumor Segmentation Challenge 2020 (BraTS2020). 
-Glioblastomas are frequent brain tumors and show very aggressive characteristics. The 5-year survival rate is limited to 5-7 %.
-..
+Glioblastomas are frequent brain tumors and show very aggressive characteristics. The 5-year survival rate is limited to 5-7 % (Perelman School of Medicine - University of Pennsylvania). 
+This is also related to their extreme intrinsic variability in shape, size and histology.
+Therefore a precise AI-assisted diagnostic tool can improve the detection and diagnosis is very high..
 
 ## Data
 The data was taken from kaggle (https://www.kaggle.com/datasets/andrewmvd/brain-tumor-segmentation-in-mri-brats-2015/data). 
