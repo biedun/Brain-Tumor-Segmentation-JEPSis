@@ -20,11 +20,11 @@ https://prezi.com/view/GMWldlnVD3CiXib8Z3bC/
 ...
 
 ## Contributors
-JEPSis is an interdisciplinary team of 
-Jennifer Winkler
-Eugenia Kikrkunow
-Pawel Biedunkiewicz
-Somayyeh Nemati
+**JEPS**is is an interdisciplinary team of <br>
+**J**ennifer Winkler <br>
+**E**ugenia Kikrkunow <br>
+**P**awel Biedunkiewicz <br>
+**S**omayyeh Nemati
 
 ## Set up the Environment
 ### **`macOS`** type the following commands : 
