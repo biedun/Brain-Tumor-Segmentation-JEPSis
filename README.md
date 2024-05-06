@@ -1,17 +1,20 @@
 # Project description
 
-This repository centers around the Brain Tumor Segmentation Challenge 2020 (BraTS2020). <br>
-The data was taken from kaggle (https://www.kaggle.com/datasets/andrewmvd/brain-tumor-segmentation-in-mri-brats-2015/data). <br>
-As the folders in this link combine three subsequent years of the same images, this project aimed to model the data of 2020  <br>
--> see [EDA](EDA_Brain18_19_20.ipynb) research
+This repository centers around the Brain Tumor Segmentation Challenge 2020 ([BraTS2020](http://braintumorsegmentation.org/)). <br>
+The data was taken from [kaggle](https://www.kaggle.com/datasets/andrewmvd/brain-tumor-segmentation-in-mri-brats-2015/data). <br>
+As the folders in this link combine three subsequent years of the same images, this project aimed to model the data of 2020-> see [EDA](EDA_Brain18_19_20.ipynb) research
 
 # Installation instructions
 1. Python 3.11.3
 2. There is a separate requirement file for each model type.
 
 # Usage
-## Describe codeparts (U-Net from scratch, pretrined and the App)
-## Provide best plots
+## Code
+The code consists of three parts. There are two different modeling methods as well as the corresponding application. <br>
+The first model is U-Net from scratch, which needs a lot of data and takes a lot of time and effort to deliver good results. <br>
+The second is the U-Net with ResNet50 backbone, which is already pretrained and therefore much more efficient.
+## Some plots
+
 ## Link to GoogleDrive with models
 
 # Features
@@ -30,7 +33,16 @@ As the folders in this link combine three subsequent years of the same images, t
 **P**awel Biedunkiewicz <br>
 **S**omayyeh Nemati
 
+## The authors of dataset
+[1] B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
+
+[2] S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J.S. Kirby, et al., "Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features", Nature Scientific Data, 4:170117 (2017) DOI: 10.1038/sdata.2017.117
+
+[3] S. Bakas, M. Reyes, A. Jakab, S. Bauer, M. Rempfler, A. Crimi, et al., "Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge", arXiv preprint arXiv:1811.02629 (2018)
+
 ## Credits to external libraries or tools
+- [Naomi Fridman](https://github.com/naomifridman/Unet_Brain_tumor_segmentation)
+- [Dr. Sreenivas Bhattiprolu](https://github.com/bnsreenu/python_for_microscopists)
 
 <br>
 <br>
