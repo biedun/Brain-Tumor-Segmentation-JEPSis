@@ -1,3 +1,50 @@
+# Project description
+
+This repository centers around the Brain Tumor Segmentation Challenge 2020 (BraTS2020). <br>
+The data was taken from kaggle (https://www.kaggle.com/datasets/andrewmvd/brain-tumor-segmentation-in-mri-brats-2015/data). <br>
+As the folders in this link combine three subsequent years of the same images, this project aimed to model the data of 2020  <br>
+-> see [EDA](EDA_Brain18_19_20.ipynb) research
+
+# Installation instructions
+1. Python 3.11.3
+2. There is a separate requirement file for each model type.
+
+# Usage
+## Describe codeparts (U-Net from scratch, pretrined and the App)
+## Provide best plots
+## Link to GoogleDrive with models
+
+# Features
+- Our highlights -> best dice score
+- Here you can find the JEPSis [application](app)
+- Here is a detailed [presentation](https://prezi.com/view/GMWldlnVD3CiXib8Z3bC/) of the project results
+
+
+# [License](LICENSE)
+
+# Acknowledgement
+## Contributors
+**JEPS**is is an interdisciplinary team of <br>
+**J**ennifer Winkler <br>
+**E**ugenia Kikrkunow <br>
+**P**awel Biedunkiewicz <br>
+**S**omayyeh Nemati
+
+## Credits to external libraries or tools
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # Brain Tumor Segmentation
 
 ## Content
