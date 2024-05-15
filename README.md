@@ -6,7 +6,7 @@ As the folders in this link combine three subsequent years of the same images, t
 
 # Installation instructions
 1. Python 3.11.3
-2. There is a separate requirement file for each model type.
+2. There is a separate requirement file for each model type. 
 
 # Usage
 ## Code
@@ -16,6 +16,14 @@ The second is the U-Net with ResNet50 backbone, which is already pretrained and 
 ## Some plots
 
 ## Link to GoogleDrive with models
+The models are stored in Google Drive: 
+U-Net from scratch:
+
+
+Pretrained model:
+https://drive.google.com/file/d/17CyD2pbZnwlfre2c4FQNOoOcdhz4HDZy/view?usp=sharing
+
+Please download and save the model and copy the path into the notebook to load it for prediction.
 
 # Features
 - Our highlights -> best dice score
