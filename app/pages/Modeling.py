@@ -47,7 +47,7 @@ def load_resnet():
 
 model1 = load_resnet()
 #loading data from the application
-#st.cache_data
+st.cache_data
 def load_images():
   data_import_path = 'users_files/'
 
