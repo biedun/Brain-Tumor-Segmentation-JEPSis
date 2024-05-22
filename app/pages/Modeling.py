@@ -27,7 +27,10 @@ from io import BytesIO
 # File uploader
 with st.sidebar:
     from io import StringIO
-    uploaded_file = st.file_uploader("Upload your folder containing NifTi files", type='zip')
+    st.text("Uplaod your folder containing")
+    st.text(" NifTi files.")
+    uploaded_file = st.file_uploader("""(Please make sure to name your files: import_t2.nii, 
+                                     import_t1ce.nii and import_flair.nii)""", type='zip')
     if uploaded_file is not None:
     # Unzipping the uploaded file
         with zipfile.ZipFile(uploaded_file, 'r') as zip_ref:
@@ -44,9 +47,10 @@ def load_resnet():
 
 model1 = load_resnet()
 #loading data from the application
-@st.cache_data
+#st.cache_data
 def load_images():
-  data_import_path = 'users_files/import_data/'
+  data_import_path = 'users_files/'
+
   # format requirements
   VOLUME_START_AT = 0
   VOLUME_SLICES = 155
@@ -115,13 +119,13 @@ plt.title('Custom Colormap Image')
 plt.axis('off')
 fig2.patch.set_facecolor('black')
 plt.show()
-fig2.savefig('pages/colored_segmentation.png', format='png', bbox_inches='tight')#, pad_iches=0.0)
+fig2.savefig('pages/colored_segmentation_2.png', format='png', bbox_inches='tight')#, pad_iches=0.0)
 
 st.subheader('This is the result of your uploaded files: predicted segmentation of the tumor')
 st.write('The image shows the largest tumor area. ')
 col1, col2 = st.columns((2,1))
 with col1:
-   st.image('pages/colored_segmentation.png')
+   st.image('pages/colored_segmentation_2.png')
 with col2:
    st.write('')
    st.write('')
