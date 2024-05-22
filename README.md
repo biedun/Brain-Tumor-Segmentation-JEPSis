@@ -14,6 +14,8 @@ The code consists of three parts. There are two different modeling methods as we
 The first model is U-Net from scratch, which needs a lot of data and takes a lot of time and effort to deliver good results. <br>
 The second is the U-Net with ResNet50 backbone, which is already pretrained and therefore much more efficient.
 ## Some plots
+![image](https://github.com/biedun/JEPSis/assets/152877968/a5a77fb2-45d1-4438-a4d2-74d8d367c765)
+
 
 ## Link to GoogleDrive with models
 The models are stored in Google Drive: 
