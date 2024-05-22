@@ -1,0 +1,17 @@
+python=3.11.3
+numpy==1.25.2
+pandas==2.0.3
+
+# modeling
+tensorflow==2.15.0
+keras==2.15.0
+segmentation-models==1.0.1
+scikit-learn==1.2.2
+Keras-Applications==1.0.8
+
+# visualization
+matplotlib==3.7.1
+nibabel==4.0.2 
+nilearn==0.10.4
+scikit-image==0.19.3
+imageio==2.34.0
