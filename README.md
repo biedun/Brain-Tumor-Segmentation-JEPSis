@@ -20,8 +20,7 @@ The models are stored in Google Drive:
 U-Net from scratch:
 
 
-Pretrained model:
-https://drive.google.com/file/d/17CyD2pbZnwlfre2c4FQNOoOcdhz4HDZy/view?usp=sharing
+[Pretrained model](https://drive.google.com/file/d/17CyD2pbZnwlfre2c4FQNOoOcdhz4HDZy/view?usp=sharing)
 
 Please download and save the model and copy the path into the notebook to load it for prediction.
 
